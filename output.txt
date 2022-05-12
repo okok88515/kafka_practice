@@ -1,0 +1,282 @@
+C:\Users\Weber\jdk-11.0.8.10\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1\lib\idea_rt.jar=12701:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\Weber\Downloads\demo\target\classes;C:\Users\Weber\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.6.7\spring-boot-starter-web-2.6.7.jar;C:\Users\Weber\.m2\repository\org\springframework\boot\spring-boot-starter\2.6.7\spring-boot-starter-2.6.7.jar;C:\Users\Weber\.m2\repository\org\springframework\boot\spring-boot\2.6.7\spring-boot-2.6.7.jar;C:\Users\Weber\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.6.7\spring-boot-autoconfigure-2.6.7.jar;C:\Users\Weber\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.6.7\spring-boot-starter-logging-2.6.7.jar;C:\Users\Weber\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\Weber\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\Weber\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.17.2\log4j-to-slf4j-2.17.2.jar;C:\Users\Weber\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\Weber\.m2\repository\org\slf4j\jul-to-slf4j\1.7.36\jul-to-slf4j-1.7.36.jar;C:\Users\Weber\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\Weber\.m2\repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar;C:\Users\Weber\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.6.7\spring-boot-starter-json-2.6.7.jar;C:\Users\Weber\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.2.1\jackson-databind-2.13.2.1.jar;C:\Users\Weber\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.2\jackson-annotations-2.13.2.jar;C:\Users\Weber\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.2\jackson-core-2.13.2.jar;C:\Users\Weber\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.13.2\jackson-datatype-jdk8-2.13.2.jar;C:\Users\Weber\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.2\jackson-datatype-jsr310-2.13.2.jar;C:\Users\Weber\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.13.2\jackson-module-parameter-names-2.13.2.jar;C:\Users\Weber\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.6.7\spring-boot-starter-tomcat-2.6.7.jar;C:\Users\Weber\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.62\tomcat-embed-core-9.0.62.jar;C:\Users\Weber\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.62\tomcat-embed-el-9.0.62.jar;C:\Users\Weber\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.62\tomcat-embed-websocket-9.0.62.jar;C:\Users\Weber\.m2\repository\org\springframework\spring-web\5.3.19\spring-web-5.3.19.jar;C:\Users\Weber\.m2\repository\org\springframework\spring-beans\5.3.19\spring-beans-5.3.19.jar;C:\Users\Weber\.m2\repository\org\springframework\spring-webmvc\5.3.19\spring-webmvc-5.3.19.jar;C:\Users\Weber\.m2\repository\org\springframework\spring-aop\5.3.19\spring-aop-5.3.19.jar;C:\Users\Weber\.m2\repository\org\springframework\spring-expression\5.3.19\spring-expression-5.3.19.jar;C:\Users\Weber\.m2\repository\org\springframework\kafka\spring-kafka\2.8.5\spring-kafka-2.8.5.jar;C:\Users\Weber\.m2\repository\org\springframework\spring-context\5.3.19\spring-context-5.3.19.jar;C:\Users\Weber\.m2\repository\org\springframework\spring-messaging\5.3.19\spring-messaging-5.3.19.jar;C:\Users\Weber\.m2\repository\org\springframework\spring-tx\5.3.19\spring-tx-5.3.19.jar;C:\Users\Weber\.m2\repository\org\springframework\retry\spring-retry\1.3.3\spring-retry-1.3.3.jar;C:\Users\Weber\.m2\repository\org\apache\kafka\kafka-clients\3.0.1\kafka-clients-3.0.1.jar;C:\Users\Weber\.m2\repository\com\github\luben\zstd-jni\1.5.0-2\zstd-jni-1.5.0-2.jar;C:\Users\Weber\.m2\repository\org\lz4\lz4-java\1.7.1\lz4-java-1.7.1.jar;C:\Users\Weber\.m2\repository\org\xerial\snappy\snappy-java\1.1.8.1\snappy-java-1.1.8.1.jar;C:\Users\Weber\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Weber\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Weber\.m2\repository\org\springframework\spring-core\5.3.19\spring-core-5.3.19.jar;C:\Users\Weber\.m2\repository\org\springframework\spring-jcl\5.3.19\spring-jcl-5.3.19.jar com.example.demo.DemoApplication
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.7)
+
+2022-05-12 20:21:41.866  INFO 15036 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 11.0.12 on Weber515 with PID 15036 (C:\Users\Weber\Downloads\demo\target\classes started by Weber in C:\Users\Weber\Downloads\demo)
+2022-05-12 20:21:41.883  INFO 15036 --- [           main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-05-12 20:21:47.179  INFO 15036 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-12 20:21:47.239  INFO 15036 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-12 20:21:47.239  INFO 15036 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-12 20:21:47.611  INFO 15036 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-12 20:21:47.612  INFO 15036 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5281 ms
+2022-05-12 20:21:48.844  INFO 15036 --- [           main] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2022-05-12 20:21:49.238  INFO 15036 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.0.1
+2022-05-12 20:21:49.255  INFO 15036 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 8e30984f43e64d8b
+2022-05-12 20:21:49.255  INFO 15036 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1652358109237
+2022-05-12 20:21:49.842  INFO 15036 --- [| adminclient-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for adminclient-1 unregistered
+2022-05-12 20:21:49.847  INFO 15036 --- [| adminclient-1] org.apache.kafka.common.metrics.Metrics  : Metrics scheduler closed
+2022-05-12 20:21:49.847  INFO 15036 --- [| adminclient-1] org.apache.kafka.common.metrics.Metrics  : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-05-12 20:21:49.848  INFO 15036 --- [| adminclient-1] org.apache.kafka.common.metrics.Metrics  : Metrics reporters closed
+2022-05-12 20:21:50.039  INFO 15036 --- [           main] o.a.k.clients.consumer.ConsumerConfig    : ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-myGroup-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = myGroup
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
+
+2022-05-12 20:21:50.173  INFO 15036 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.0.1
+2022-05-12 20:21:50.173  INFO 15036 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 8e30984f43e64d8b
+2022-05-12 20:21:50.173  INFO 15036 --- [           main] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1652358110173
+2022-05-12 20:21:50.175  INFO 15036 --- [           main] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-myGroup-1, groupId=myGroup] Subscribed to topic(s): javaguides
+2022-05-12 20:21:50.245  INFO 15036 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-12 20:21:50.267  INFO 15036 --- [ntainer#0-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-myGroup-1, groupId=myGroup] Resetting the last seen epoch of partition javaguides-0 to 0 since the associated topicId changed from null to XYF-MaM5Qh-gPgD9nNJh-Q
+2022-05-12 20:21:50.268  INFO 15036 --- [ntainer#0-0-C-1] org.apache.kafka.clients.Metadata        : [Consumer clientId=consumer-myGroup-1, groupId=myGroup] Cluster ID: S5pdSPvxTXCD6RU9DNd17g
+2022-05-12 20:21:50.268  INFO 15036 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 11.383 seconds (JVM running for 16.279)
+2022-05-12 20:21:50.269  INFO 15036 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-myGroup-1, groupId=myGroup] Discovered group coordinator Weber515:9092 (id: 2147483647 rack: null)
+2022-05-12 20:21:50.273  INFO 15036 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-myGroup-1, groupId=myGroup] (Re-)joining group
+2022-05-12 20:21:50.313  INFO 15036 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-myGroup-1, groupId=myGroup] Request joining group due to: need to re-join with the given member-id
+2022-05-12 20:21:50.313  INFO 15036 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-myGroup-1, groupId=myGroup] (Re-)joining group
+2022-05-12 20:21:50.351  INFO 15036 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-myGroup-1, groupId=myGroup] Successfully joined group with generation Generation{generationId=3, memberId='consumer-myGroup-1-d68edf93-e9ff-49ef-8efe-22fd88f882c2', protocol='range'}
+2022-05-12 20:21:50.353  INFO 15036 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-myGroup-1, groupId=myGroup] Finished assignment for group at generation 3: {consumer-myGroup-1-d68edf93-e9ff-49ef-8efe-22fd88f882c2=Assignment(partitions=[javaguides-0])}
+2022-05-12 20:21:50.369  INFO 15036 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-myGroup-1, groupId=myGroup] Successfully synced group in generation Generation{generationId=3, memberId='consumer-myGroup-1-d68edf93-e9ff-49ef-8efe-22fd88f882c2', protocol='range'}
+2022-05-12 20:21:50.370  INFO 15036 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-myGroup-1, groupId=myGroup] Notifying assignor about the new Assignment(partitions=[javaguides-0])
+2022-05-12 20:21:50.373  INFO 15036 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-myGroup-1, groupId=myGroup] Adding newly assigned partitions: javaguides-0
+2022-05-12 20:21:50.387  INFO 15036 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-myGroup-1, groupId=myGroup] Setting offset for partition javaguides-0 to the committed offset FetchPosition{offset=3, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[Weber515:9092 (id: 0 rack: null)], epoch=0}}
+2022-05-12 20:21:50.388  INFO 15036 --- [ntainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : myGroup: partitions assigned: [javaguides-0]
+2022-05-12 21:30:33.186  INFO 15036 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-12 21:30:33.253  INFO 15036 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-12 21:30:34.123  INFO 15036 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 870 ms
+2022-05-12 21:30:36.150  INFO 15036 --- [nio-8080-exec-1] com.example.demo.kafka.KafkaProducer     : Message sent a message to spring kafka
+2022-05-12 21:30:36.759  INFO 15036 --- [nio-8080-exec-1] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+
+2022-05-12 21:30:37.409  INFO 15036 --- [nio-8080-exec-1] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-1] Instantiated an idempotent producer.
+2022-05-12 21:30:37.885  INFO 15036 --- [nio-8080-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.0.1
+2022-05-12 21:30:37.885  INFO 15036 --- [nio-8080-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 8e30984f43e64d8b
+2022-05-12 21:30:37.885  INFO 15036 --- [nio-8080-exec-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1652362237885
+2022-05-12 21:30:38.091  INFO 15036 --- [ad | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Resetting the last seen epoch of partition javaguides-0 to 0 since the associated topicId changed from null to XYF-MaM5Qh-gPgD9nNJh-Q
+2022-05-12 21:30:38.092  INFO 15036 --- [ad | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Cluster ID: S5pdSPvxTXCD6RU9DNd17g
+2022-05-12 21:30:38.092  INFO 15036 --- [ad | producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=producer-1] ProducerId set to 2 with epoch 0
+2022-05-12 21:30:41.247  INFO 15036 --- [ntainer#0-0-C-1] com.example.demo.kafka.KafkaConsumer     : Message received -> a message to spring kafka
+2022-05-12 21:44:29.583  INFO 15036 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-myGroup-1, groupId=myGroup] Revoke previously assigned partitions javaguides-0
+2022-05-12 21:44:29.611  INFO 15036 --- [ntainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : myGroup: partitions revoked: [javaguides-0]
+2022-05-12 21:44:29.771  INFO 15036 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-myGroup-1, groupId=myGroup] Member consumer-myGroup-1-d68edf93-e9ff-49ef-8efe-22fd88f882c2 sending LeaveGroup request to coordinator Weber515:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2022-05-12 21:44:29.878  INFO 15036 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-myGroup-1, groupId=myGroup] Resetting generation due to: consumer pro-actively leaving the group
+2022-05-12 21:44:29.878  INFO 15036 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-myGroup-1, groupId=myGroup] Request joining group due to: consumer pro-actively leaving the group
+2022-05-12 21:44:29.879  INFO 15036 --- [ntainer#0-0-C-1] o.a.k.clients.consumer.KafkaConsumer     : [Consumer clientId=consumer-myGroup-1, groupId=myGroup] Unsubscribed all topics or patterns and assigned partitions
+2022-05-12 21:44:29.950  INFO 15036 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-myGroup-1, groupId=myGroup] Resetting generation due to: consumer pro-actively leaving the group
+2022-05-12 21:44:29.950  INFO 15036 --- [ntainer#0-0-C-1] o.a.k.c.c.internals.ConsumerCoordinator  : [Consumer clientId=consumer-myGroup-1, groupId=myGroup] Request joining group due to: consumer pro-actively leaving the group
+2022-05-12 21:44:30.726  INFO 15036 --- [ntainer#0-0-C-1] org.apache.kafka.common.metrics.Metrics  : Metrics scheduler closed
+2022-05-12 21:44:30.727  INFO 15036 --- [ntainer#0-0-C-1] org.apache.kafka.common.metrics.Metrics  : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-05-12 21:44:30.727  INFO 15036 --- [ntainer#0-0-C-1] org.apache.kafka.common.metrics.Metrics  : Metrics reporters closed
+2022-05-12 21:44:30.775  INFO 15036 --- [ntainer#0-0-C-1] o.a.kafka.common.utils.AppInfoParser     : App info kafka.consumer for consumer-myGroup-1 unregistered
+2022-05-12 21:44:30.803  INFO 15036 --- [ntainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : myGroup: Consumer stopped
+2022-05-12 21:44:30.998  INFO 15036 --- [ionShutdownHook] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2022-05-12 21:44:31.005  INFO 15036 --- [ionShutdownHook] org.apache.kafka.common.metrics.Metrics  : Metrics scheduler closed
+2022-05-12 21:44:31.005  INFO 15036 --- [ionShutdownHook] org.apache.kafka.common.metrics.Metrics  : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-05-12 21:44:31.006  INFO 15036 --- [ionShutdownHook] org.apache.kafka.common.metrics.Metrics  : Metrics reporters closed
+2022-05-12 21:44:31.006  INFO 15036 --- [ionShutdownHook] o.a.kafka.common.utils.AppInfoParser     : App info kafka.producer for producer-1 unregistered
+
+Process finished with exit code 130
